@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -69,6 +70,12 @@ public class NotaFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
+            notaList = new ArrayList<>();
+            notaList.add(new Nota("UC4","Estudiar para la evaluación de la UC4 - Caso: Notas y Listas", true, android.R.color.holo_blue_light));
+            notaList.add(new Nota("Recordar", "He aparcado el coche en la calle República Argentina, no olvidarme en el parque",false, android.R.color.holo_green_light));
+            notaList.add(new Nota("cumpleaños (fiesta)","no olvidar las velas", true, android.R.color.holo_orange_light));
+
+
             adapterNotas = new MyNotaRecyclerViewAdapter(notaList, mListener);
             recyclerView.setAdapter(adapterNotas);
 
