@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DAM_Examen_Final_Pena</string>
+    <string name="correo">Correo electronico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="title_activity_notas_columnas">NotasColumnasActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="cuenta">cuenta</string>
+    <string name="reloj">reloj</string>
+    <string name="notas">Notas</string>
+</resources>
